@@ -9,7 +9,7 @@ Later more updated will be done!
 ## Some Screenshots Of The UI
 <img alt="splash-screen" src="./splash.jpeg" height="300">
 <img alt="list-screen" src="./list.jpeg" height="300">
-<img alt="day-screen" src="./day.jpeg" height="300">
-<img alt="night-screen" src="./night.jpeg" height="300">
+<img alt="day-screen" src="./day.jpg" height="300">
+<img alt="night-screen" src="./night.jpg" height="300">
 <!--[alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png) -->
