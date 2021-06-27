@@ -46,6 +46,7 @@ class _HomeState extends State<Home> {
                   'isDaytime':result['isDaytime'],
                   'clientIp':result['clientIp'],
                 };
+                print('widget uodated');
 
                 
 

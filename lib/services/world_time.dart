@@ -27,7 +27,7 @@ class WorldTime{
    Map data= jsonDecode(respons.body);
 
    clientIp=data['client_ip'];
-   String datetime=data['utc_datetime'];
+   String datetime=data['datetime'];
    String offset = data['utc_offset'].substring(1,3);
   //  String client_ip=data['client_ip'];
   

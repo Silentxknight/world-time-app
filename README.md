@@ -1,16 +1,15 @@
-# rt_pool
+# World Time App
 
-as a prac
+With the help of worldtimeapi.org, it'll show the time of some cities and your IP Address.
 
-## Getting Started
+## Future Plan 
+Moving the enitre backend to a new server which will initially provide the same details (e.g Ip Address, Time etc) more efficiently.
+Later more updated will be done!
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Some Screenshots Of The UI
+<img alt="splash-screen" src="./splash.jpeg" height="300">
+<img alt="list-screen" src="./list.jpeg" height="300">
+<img alt="day-screen" src="./day.jpeg" height="300">
+<img alt="night-screen" src="./night.jpeg" height="300">
+<!--[alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png) -->

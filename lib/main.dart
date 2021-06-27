@@ -23,6 +23,7 @@ void main() {
   // initialRoute: '/home',
   routes: {
     '/':(context)=>Loading(),
+    // '/':(context)=>Home(),
     '/home':(context)=>Home(),
     '/location':(context)=>ChooseLocation(),
   },
