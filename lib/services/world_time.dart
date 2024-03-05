@@ -5,13 +5,13 @@ import 'package:http/http.dart';
 
 class WorldTime {
   String location;
-  String time;
-  String flag;
+  String time = '';
+  String flag = '';
   String urlAtt;
-  bool isDaytime;
-  String clientIp;
+  bool isDaytime = false;
+  String clientIp = '';
 
-  WorldTime({this.location, this.urlAtt});
+  WorldTime({required this.location, required this.urlAtt});
 
   void getData() async {
     // var url=Uri.parse("https://worldtimeapi.org/api/timezone/");

@@ -13,13 +13,23 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     // Getting the data
-    data = data.isNotEmpty ? data : ModalRoute.of(context).settings.arguments;
+    // data = data.isNotEmpty ? data : ModalRoute.of(context)?.settings.arguments;
+    dynamic data = ModalRoute.of(context)?.settings.arguments;
+    // Check if data is null or empty
+    if (data == null || data.isEmpty) {
+        // Handle the case where data is null or empty
+        // Assign a default value or handle it appropriately
+        data = ModalRoute.of(context)?.settings.arguments;
+    }else{
+      data = data;
+    }
+
 
     print(data);
     //  Color bgColor=data['isDaytime']?Colors.cyanAccent[100]:Colors.grey[900];
     //  Color fontColor=data['isDaytime']?Colors.black:Colors.white;
     //  var timeIcon=data['isDaytime']?'sun.png':'moon.png';
-    Color bgColor = Colors.grey[900];
+    Color bgColor = Colors.grey[900]!;
     Color fontColor = Colors.white;
     var timeIcon = 'moon.png';
 
@@ -36,7 +46,7 @@ class _HomeState extends State<Home> {
                 borderRadius: BorderRadius.circular(10),
                 color: Colors.black,
               ),
-              child: FlatButton.icon(
+              child: TextButton.icon(
                   onPressed: () async {
                     dynamic result =
                         await Navigator.pushNamed(context, "/location");
